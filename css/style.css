@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+/* general Css */
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+/* general Css */
+
+/*header css*/
+.header{
+	padding: 8px 0;
+}
+.myNav li a{
+	font-size: 25px;
+    font-weight: 400;
+    color: #000!important;
+    text-transform: uppercase;
+    display: block;
+    padding: 0px 23px!important;
+    position: relative;
+}
+.myNav li a:after{
+	content: '';
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	top: 100%;
+	width: 0%;
+	height: 2px;
+	background-color: #8DCD37;
+	transition: 0.3s all;
+}
+.myNav li a:hover:after{
+	width: 60%!important;
+}
+
+/*slider css*/
+.slider{
+	position: relative;
+}
+.overlay{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(128,218,173,0.5);
+}
+.tempSlider .carousel-caption{
+	top: 200px;
+}
+.tempSlider .carousel-caption h2{
+	font-size: 50px;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+}
+.tempSlider .carousel-caption p{
+	font-size: 25px;
+    color: #000;
+    line-height: 25px;
+    margin: 15px 0;
+}
+.tempSlider .carousel-caption a{
+	font-size: 25px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: #fff;
+    padding: 5px 35px;
+    border-radius: 8px;
+}
+.tempSlider .carousel-caption a:hover{
+	color: #8DCD37;
+}
+
+/*services css*/
+.services{
+	padding: 60px 0;
+}
+.services .title h1{
+	font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.single-services-block{
+	padding: 10px;
+	transition: 0.3s all;
+}
+.single-services-block:hover{
+	-webkit-box-shadow: 0px 13px 26px -7px rgba(0,0,0,0.62);
+	-moz-box-shadow: 0px 13px 26px -7px rgba(0,0,0,0.62);
+	box-shadow: 0px 13px 26px -7px rgba(0,0,0,0.62);
+}
+.single-services-block:hover .icon{
+	transform: scale(0.8) rotate(360deg);
+
+
+}
+.single-services-block .icon{
+	width: 80px;
+	height: 80px;
+	background-color: #8DCD37;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 80px;
+	margin: 0 auto;
+	transition: 0.3s;
+}
+.single-services-block .icon i{
+	font-size: 30px;
+	color: #fff;
+}
+.single-services-block .service-sub-title{
+	font-size: 37px;
+    color: #000;
+    margin: 18px 0;
+    text-transform: uppercase;
+}
+.single-services-block .service-description{
+	font-size: 22px;
+    color: #000;
+}
+
+/*about css*/
+.about{
+	padding: 60px 0;
+	background-color: #F0F0F0;
+}
+.about-content-block{
+	margin-top: 75px;
+}
+.about-content-block h2{
+	font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.about-content-block p{
+	font-size: 22px;
+    color: #000;
+}
+.about-image-block img{
+	width: 100%;
+}
+
+/*subscribe css*/
+.subscribe{
+	padding: 60px;
+	background-color: #43CB83;
+}
+.subscribe-input{
+	background: none;
+    font-size: 20px;
+    border: 1px solid #fff;
+}
+.subscribe-input::placeholder{
+	color: #fff!important;
+}
+.subscribe-input:focus{
+	background: none;
+	box-shadow: none;
+	outline: none;
+	border-color: #fff;
+}
+.subscribe-btn{
+	font-size: 20px;
+    width: 100%;
+    color: #43CB83;
+    border: none;
+    background-color: #fff;
+}
+.subscribe-btn:hover{
+	background-color: #fff;
+	color: #43CB83;
+}
+
+/*important links css*/
+.important-link{
+	padding: 60px 0;
+}
+.align-right{
+	text-align: right;
+}
+.important-link h2{
+	font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.about-company p{
+	font-size: 22px;
+    color: #000;
+}
+.quick-links a{
+	font-size: 22px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+.quick-links a:hover{
+	font-weight: 700;
+	padding-left: 15px;
+}
+.contact-content p{
+	font-size: 22px;
+    color: #000;
+}
+.social i{
+	font-size: 30px;
+	color: #777777;
+	transition: 0.3s all;
+}
+.social i:hover{
+	color: #000;
+}
+/*footer css*/
+.footer-bottom{
+	font-size: 18px;
+	color: #fff;
+	background-color: #272822;
+	padding: 10px 0;
+}
